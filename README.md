@@ -1,3 +1,8 @@
+Once repository is cloned, change the name of env.env file into .env inside backend folder.
+run npm install in root folder as well as in backed folder. 
+then in terminal, move to backend folder and run nodemon server. 
+now, open terminal in root folder and run npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,3 +1,4 @@
+# Installation steps after clone
 Once repository is cloned, change the name of env.env file into .env inside backend folder.
 run npm install in root folder as well as in backed folder. 
 then in terminal, move to backend folder and run nodemon server. 

@@ -51,7 +51,7 @@ const Image = ({ source }) => (
  */
 const VehicleCard = ({ vehicle }) => (
   <div className="width-25 float-left vehicle-card-item">
-    <div className="vehicle-card">
+    <div className="vehicle-card dark">
       <Image source={vehicle.image ? vehicle.image : vehicle.images[0]} />
       <div className="title">{vehicle.name}</div>
       <div className="subtitle">
@@ -76,8 +76,8 @@ function App() {
 
   return (
     <div className="App">
-      {vehicles.map((vehicle) => (
-        <VehicleCard vehicle={vehicle} />
+      {vehicles.map((vehicle, index) => (
+        <VehicleCard key={`vehicle.name${index}`} vehicle={vehicle} />
       ))}
     </div>
   );
